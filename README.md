@@ -62,9 +62,15 @@
 
 **Machine Learning & AI**  
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) 
+![XGBoost](https://img.shields.io/badge/XGBoost-EB5E0B?style=for-the-badge&logo=python&logoColor=white) 
+![LightGBM](https://img.shields.io/badge/LightGBM-017C36?style=for-the-badge&logo=python&logoColor=white) 
+![Statsmodels](https://img.shields.io/badge/Statsmodels-005C5C?style=for-the-badge&logo=python&logoColor=white) 
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white) 
+![Prophet](https://img.shields.io/badge/Prophet-025E73?style=for-the-badge&logo=python&logoColor=white)  
 ![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge&logo=chainlink&logoColor=white) 
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FF9B00?style=for-the-badge&logo=huggingface&logoColor=white) 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) 
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FF9B00?style=for-the-badge&logo=huggingface&logoColor=white)  
+![RAG](https://img.shields.io/badge/RAG-1C1C1C?style=for-the-badge&logo=ai&logoColor=white)
 
 **APIs, Dashboards & Deployment**  
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) 
