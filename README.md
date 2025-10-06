@@ -4,9 +4,35 @@
 <h3 align="center">A passionate data analyst from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jatmanis1&label=Profile%20views&color=0e75b6&style=flat" alt="jatmanis1" /> </p>
-# 💫 About Me:
-🔭 I’m currently working on EasyHome – A home service app with multiple user roles (Academic Project).<br>🌱 I’m currently learning Redis, Vue.js, and Machine Learning.<br>👯 I’m looking to collaborate on projects related to Python and Web Development using Django or Vue.js.<br>💬 Ask me about Django, Redis, Vue.js, and Machine Learning.<br>📫 How to reach me: jatmanis11@gmail.com.<br>⚡ Fun fact: I love coding, playing sports, and playing chess.
 
+🔭 I’m currently working on AxioKabbadi – A library for kabbadi data analyasis with live data uptation.<br>
+🌱 I’m currently expanding my skills in Machine Learning for Analytics, LLM Integration, and Data Engineering.
+👯 I’m looking to collaborate on projects related to Data Analytics, Business Intelligence, and Data-driven Web Apps.
+💬 Ask me about:
+
+Python for Data Analysis (Expert, 2+ years) → Pandas, NumPy, SciPy, Matplotlib, Seaborn, Plotly, Jupyter Notebook
+
+SQL & Databases (Advanced, 2 years) → PostgreSQL, MySQL, SQLite, SQLAlchemy, Redis
+
+Data Visualization (Advanced, 2 years) → Plotly, Seaborn, Matplotlib, Looker Studio
+
+Statistics & Forecasting (Intermediate, 1.5 years) → Hypothesis Testing, Regression, Time Series
+
+Machine Learning for Analytics (Intermediate, 1 year) → Scikit-learn (Clustering, Regression, Classification)
+
+ETL & Data Engineering (Intermediate, 1 year) → Pandas (wrangling), Excel Automation (OpenPyXL)
+
+Automation & Workflows (Advanced, 1.5 years) → Celery, Playwright, Selenium, Python Scripts
+
+LLM & AI Integration (Intermediate, 1 year) → LangChain, OpenAI API, Hugging Face, RAG
+
+📊 I also have hands-on experience with:
+
+API Development (Flask, FastAPI, REST, JWT)
+
+Frontend (Vue.js, Bootstrap, Axios) for data dashboards
+
+Deployment (GitHub Actions, Docker, Streamlit, Vercel)
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/manishjat.manish.505) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/jatmanis1) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jatmanis11) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@jatmanis1) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/jatmanis1) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/jatmanis1) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@jatmanis1) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:jatmanis1.mail@gmail.com) 
