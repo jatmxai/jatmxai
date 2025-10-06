@@ -25,20 +25,6 @@
 | Frontend for Dashboards    | ⭐⭐⭐ (Intermediate) | Vue.js, Bootstrap, Axios  |
 | Deployment                 | ⭐⭐⭐ (Intermediate) | GitHub Actions, Docker, Streamlit, Vercel |
 
-- **Python for Data Analysis (Expert, 2+ years):** Pandas, NumPy, SciPy, Matplotlib, Seaborn, Plotly, Jupyter Notebook  
-- **SQL & Databases (Advanced, 2 years):** PostgreSQL, MySQL, SQLite, SQLAlchemy, Redis  
-- **Data Visualization (Advanced, 2 years):** Plotly, Seaborn, Matplotlib, Looker Studio  
-- **Statistics & Forecasting (Intermediate, 1.5 years):** 
-- **Machine Learning for Analytics (Intermediate, 1 year):** Scikit-learn (Clustering, Regression, Classification)  
-- **ETL & Data Engineering (Intermediate, 1 year):** Pandas (wrangling), Excel Automation (OpenPyXL)  
-- **Automation & Workflows (Advanced, 1.5 years):** 
-- **LLM & AI Integration (Intermediate, 1 year):** LangChain, OpenAI API, Hugging Face, RAG  
-
-📊 I also have hands-on experience with:  
-- **:**  
-- **:**  
-- **:**   
-
 ---
 
 ## 🌐 Socials
