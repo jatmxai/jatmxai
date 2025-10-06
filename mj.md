@@ -14,11 +14,12 @@
 💬 **Ask me about:**  
 | Skill Area                | Level        | Tools & Tech |
 |----------------------------|-------------|--------------|
-| Python for Data Analysis   | ⭐⭐⭐⭐ (Expert) | Pandas, NumPy, SciPy |
+| Python for Data Analysis   | ⭐⭐⭐⭐ (Expert) | Pandas, NumPy, SciPy, Matplotlib, Seaborn, Plotly, Jupyter Notebook |
 | SQL & Databases            | ⭐⭐⭐⭐ (Advanced) | PostgreSQL, MySQL, Redis |
 | Data Visualization         | ⭐⭐⭐⭐ (Advanced) | Plotly, Seaborn, Looker Studio |
-| Machine Learning           | ⭐⭐⭐ (Intermediate) | Scikit-learn |
+| Machine Learning           | ⭐⭐⭐ (Intermediate) | Scikit-learn, XGBoost, LightGBM, Statsmodels |
 | LLM & AI Integration       | ⭐⭐⭐⭐ (Advance) | LangChain, HuggingFace, OpenAI, RAG|
+| Statistics & Forecasting   | ⭐⭐⭐ (Intermediate) |SciPy, Statsmodels, Scikit-learn, Prophet  |
 | Frontend for Dashboards    | ⭐⭐⭐ (Intermediate) |Celery, Playwright, Selenium, Python Scripts  |
 | API Development            | ⭐⭐⭐ (Advance) | Django, Flask, FastAPI, REST, JWT  |
 | Frontend for Dashboards    | ⭐⭐⭐ (Intermediate) | Vue.js, Bootstrap, Axios  |
@@ -27,7 +28,7 @@
 - **Python for Data Analysis (Expert, 2+ years):** Pandas, NumPy, SciPy, Matplotlib, Seaborn, Plotly, Jupyter Notebook  
 - **SQL & Databases (Advanced, 2 years):** PostgreSQL, MySQL, SQLite, SQLAlchemy, Redis  
 - **Data Visualization (Advanced, 2 years):** Plotly, Seaborn, Matplotlib, Looker Studio  
-- **Statistics & Forecasting (Intermediate, 1.5 years):** Hypothesis Testing, Regression, Time Series  
+- **Statistics & Forecasting (Intermediate, 1.5 years):** 
 - **Machine Learning for Analytics (Intermediate, 1 year):** Scikit-learn (Clustering, Regression, Classification)  
 - **ETL & Data Engineering (Intermediate, 1 year):** Pandas (wrangling), Excel Automation (OpenPyXL)  
 - **Automation & Workflows (Advanced, 1.5 years):** 
