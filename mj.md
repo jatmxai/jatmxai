@@ -19,6 +19,9 @@
 | Data Visualization         | ⭐⭐⭐⭐ (Advanced) | Plotly, Seaborn, Looker Studio |
 | Machine Learning           | ⭐⭐⭐ (Intermediate) | Scikit-learn |
 | LLM & AI Integration       | ⭐⭐⭐ (Intermediate) | LangChain, HuggingFace, OpenAI |
+| API Development            | ⭐⭐⭐ (Intermediate) | LangChain, HuggingFace, OpenAI |
+| Frontend for Dashboards    | ⭐⭐⭐ (Intermediate) | LangChain, HuggingFace, OpenAI |
+| Deployment                 | ⭐⭐⭐ (Intermediate) | GitHub Actions, Docker, Streamlit, Vercel |
 
 - **Python for Data Analysis (Expert, 2+ years):** Pandas, NumPy, SciPy, Matplotlib, Seaborn, Plotly, Jupyter Notebook  
 - **SQL & Databases (Advanced, 2 years):** PostgreSQL, MySQL, SQLite, SQLAlchemy, Redis  
@@ -30,9 +33,9 @@
 - **LLM & AI Integration (Intermediate, 1 year):** LangChain, OpenAI API, Hugging Face, RAG  
 
 📊 I also have hands-on experience with:  
-- **API Development:** Flask, FastAPI, REST, JWT  
-- **Frontend for Dashboards:** Vue.js, Bootstrap, Axios  
-- **Deployment:** GitHub Actions, Docker, Streamlit, Vercel  
+- **:** Flask, FastAPI, REST, JWT  
+- **:** Vue.js, Bootstrap, Axios  
+- **:**   
 
 ---
 
