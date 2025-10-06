@@ -1,3 +1,9 @@
+
+
+<h1 align="center">Hi 👋, I'm manish jat</h1>
+<h3 align="center">A passionate data analyst from India</h3>
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=jatmanis1&label=Profile%20views&color=0e75b6&style=flat" alt="jatmanis1" /> </p>
 # 💫 About Me:
 🔭 I’m currently working on EasyHome – A home service app with multiple user roles (Academic Project).<br>🌱 I’m currently learning Redis, Vue.js, and Machine Learning.<br>👯 I’m looking to collaborate on projects related to Python and Web Development using Django or Vue.js.<br>💬 Ask me about Django, Redis, Vue.js, and Machine Learning.<br>📫 How to reach me: jatmanis11@gmail.com.<br>⚡ Fun fact: I love coding, playing sports, and playing chess.
 
@@ -32,12 +38,6 @@
 
 
 second part 
-
-
-<h1 align="center">Hi 👋, I'm manish jat</h1>
-<h3 align="center">A passionate data analyst from India</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=jatmanis1&label=Profile%20views&color=0e75b6&style=flat" alt="jatmanis1" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jatmanis1" alt="jatmanis1" /></a> </p>
 
