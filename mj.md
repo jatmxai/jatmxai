@@ -12,6 +12,14 @@
 👯 Looking to collaborate on **Data Analytics, Business Intelligence, and Data-driven Web Apps**.  
 
 💬 **Ask me about:**  
+| Skill Area                | Level        | Tools & Tech |
+|----------------------------|-------------|--------------|
+| Python for Data Analysis   | ⭐⭐⭐⭐ (Expert) | Pandas, NumPy, SciPy |
+| SQL & Databases            | ⭐⭐⭐⭐ (Advanced) | PostgreSQL, MySQL, Redis |
+| Data Visualization         | ⭐⭐⭐⭐ (Advanced) | Plotly, Seaborn, Looker Studio |
+| Machine Learning           | ⭐⭐⭐ (Intermediate) | Scikit-learn |
+| LLM & AI Integration       | ⭐⭐⭐ (Intermediate) | LangChain, HuggingFace, OpenAI |
+
 - **Python for Data Analysis (Expert, 2+ years):** Pandas, NumPy, SciPy, Matplotlib, Seaborn, Plotly, Jupyter Notebook  
 - **SQL & Databases (Advanced, 2 years):** PostgreSQL, MySQL, SQLite, SQLAlchemy, Redis  
 - **Data Visualization (Advanced, 2 years):** Plotly, Seaborn, Matplotlib, Looker Studio  
