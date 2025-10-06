@@ -89,6 +89,9 @@
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=jatmanis1&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
+### 🏆 GitHub Trophies
+[![trophy](https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=flat&row=1&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
+
 ---
 
 ### 🔝 Top Contributed Repo
