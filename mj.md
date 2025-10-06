@@ -18,9 +18,10 @@
 | SQL & Databases            | ⭐⭐⭐⭐ (Advanced) | PostgreSQL, MySQL, Redis |
 | Data Visualization         | ⭐⭐⭐⭐ (Advanced) | Plotly, Seaborn, Looker Studio |
 | Machine Learning           | ⭐⭐⭐ (Intermediate) | Scikit-learn |
-| LLM & AI Integration       | ⭐⭐⭐ (Intermediate) | LangChain, HuggingFace, OpenAI |
-| API Development            | ⭐⭐⭐ (Intermediate) | LangChain, HuggingFace, OpenAI |
-| Frontend for Dashboards    | ⭐⭐⭐ (Intermediate) | LangChain, HuggingFace, OpenAI |
+| LLM & AI Integration       | ⭐⭐⭐⭐ (Advance) | LangChain, HuggingFace, OpenAI, RAG|
+| Frontend for Dashboards    | ⭐⭐⭐ (Intermediate) |Celery, Playwright, Selenium, Python Scripts  |
+| API Development            | ⭐⭐⭐ (Advance) | Django, Flask, FastAPI, REST, JWT  |
+| Frontend for Dashboards    | ⭐⭐⭐ (Intermediate) | Vue.js, Bootstrap, Axios  |
 | Deployment                 | ⭐⭐⭐ (Intermediate) | GitHub Actions, Docker, Streamlit, Vercel |
 
 - **Python for Data Analysis (Expert, 2+ years):** Pandas, NumPy, SciPy, Matplotlib, Seaborn, Plotly, Jupyter Notebook  
@@ -29,12 +30,12 @@
 - **Statistics & Forecasting (Intermediate, 1.5 years):** Hypothesis Testing, Regression, Time Series  
 - **Machine Learning for Analytics (Intermediate, 1 year):** Scikit-learn (Clustering, Regression, Classification)  
 - **ETL & Data Engineering (Intermediate, 1 year):** Pandas (wrangling), Excel Automation (OpenPyXL)  
-- **Automation & Workflows (Advanced, 1.5 years):** Celery, Playwright, Selenium, Python Scripts  
+- **Automation & Workflows (Advanced, 1.5 years):** 
 - **LLM & AI Integration (Intermediate, 1 year):** LangChain, OpenAI API, Hugging Face, RAG  
 
 📊 I also have hands-on experience with:  
-- **:** Flask, FastAPI, REST, JWT  
-- **:** Vue.js, Bootstrap, Axios  
+- **:**  
+- **:**  
 - **:**   
 
 ---
