@@ -38,6 +38,10 @@
 A cutting-edge **Python library for Kabaddi data analysis**, blending **AI-powered match summaries** with **predictive insights** to forecast future game outcomes.  
 It turns raw Kabaddi stats into **smart stories**, **visual insights**, and **data-driven predictions** — bringing the thrill of the mat to machine learning.
 
+### 🤖 [Multi-Modal Data Analysis API v2.0](https://jatmanis1.github.io/tds_p2)
+A **FastAPI + LangChain** powered REST API for **AI-driven data analysis** with multi-file upload, workflow detection, and real-time insights.  
+Supports text, images, and datasets for automated **EDA, visualization, prediction, and code generation** — all in one endpoint.
+
 
 ---
 
