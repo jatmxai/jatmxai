@@ -54,6 +54,19 @@ A **data-driven retail analytics project** developed under the **IIT Madras BS D
 
 📘 *Outcome:* A data-powered roadmap for small retailers to enhance profitability and operational efficiency.
 
+### 💻 [CompuWorth: Hardware–Price Regression for Laptop Valuation](https://github.com/jatmanis1/easycomputer)
+A **machine learning project** predicting laptop prices using hardware specifications and regression-based modeling.  
+Built a robust **valuation system** that analyzes key attributes like CPU, GPU, RAM, and storage to estimate real-world pricing with precision.
+
+🧠 **Key Highlights:**
+- Explored multiple ML models: **Linear, Polynomial, and Ridge Regression**
+- Performed **Grid Search** for optimal hyperparameters
+- Visualized R² scores and alpha variations for **model selection**
+- Implemented full **data cleaning, EDA, and model evaluation pipeline**
+
+🧰 **Tech Stack:** Python, pandas, NumPy, scikit-learn, matplotlib, seaborn  
+📊 **Outcome:** Delivered an interpretable regression model for laptop price prediction with high accuracy.
+
 
 ---
 
