@@ -43,6 +43,18 @@ A **FastAPI + LangChain** powered REST API for **AI-driven data analysis** with 
 Supports text, images, and datasets for automated **EDA, visualization, prediction, and code generation** — all in one endpoint.
 
 
+### 📊 [Optimizing Inventory & Pricing for Shree Balaji Mobile Care](https://jatmanis1.github.io/tds_p2)
+A **data-driven retail analytics project** developed under the **IIT Madras BS Degree (BDM Capstone)** — focused on improving inventory turnover and revenue for a local mobile store.
+
+💡 **Highlights:**
+- Unlocked ₹2.1M in dead stock and recovered ₹527K annual revenue loss  
+- Applied **ABC analysis, regression modeling, and forecasting** for pricing insights  
+- Built actionable dashboards using **Python (pandas, seaborn, statsmodels)** and **Excel**  
+- Delivered a complete decision-support framework for **smart inventory & pricing strategies**
+
+📘 *Outcome:* A data-powered roadmap for small retailers to enhance profitability and operational efficiency.
+
+
 ---
 
 ## 🌐 Socials
