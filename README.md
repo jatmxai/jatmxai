@@ -9,7 +9,7 @@
 
 ---
 
-🔭 I’m currently working on **AxioKabbadi** – A Python library for **Kabaddi data analysis** with live data updates.  
+🔭 Working on **ProKabbadiPy** — where _Kabaddi meets AI_ for smart stats, game insights, and predictive magic. 
 🌱 Expanding skills in **Machine Learning for Analytics, LLM Integration, and Data Engineering**.  
 👯 Looking to collaborate on **Data Analytics, Business Intelligence, and Data-driven Web Apps**.  
 
