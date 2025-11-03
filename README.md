@@ -86,6 +86,19 @@ The system interprets text sentiment, user credibility, and engagement metrics t
 🧰 **Tech Stack:** Python, pandas, NumPy, scikit-learn, XGBoost, LightGBM, NLP (TF-IDF)
 📊 **Outcome:** Built a scalable ML pipeline capable of predicting user ratings from text reviews with 80% accuracy.
 
+### ⚙️ [Flask Service Manager API](https://github.com/jatmanis11/eh_live)
+A **Flask-based backend** integrating **JWT authentication**, **Celery-powered async email handling**, and **Flask-Mail** for automated notifications.  
+Designed to manage service requests efficiently with **RESTful APIs**, **PostgreSQL**, and **Redis-based background tasks**.
+
+🧠 **Key Features:**
+- Secure **JWT authentication system**
+- **Asynchronous email sending** via Celery + Redis
+- **Flask-Mail integration** with CSV/PDF attachments
+- **Flask-Migrate** for database schema updates
+- Built-in **CORS** support and structured API routes
+
+🧰 **Tech Stack:** Flask, Celery, Redis, Flask-Mail, Flask-JWT-Extended, Flask-RESTful, PostgreSQL  
+📊 **Outcome:** A scalable, production-ready backend for service management and automated email workflows.
 
 ---
 
