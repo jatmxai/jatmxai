@@ -28,6 +28,18 @@
 | Deployment                 | ⭐⭐⭐ (Intermediate) | GitHub Actions, Docker, Streamlit, Vercel |
 
 ---
+## 🚀 Projects
+
+### 🏏 [ProKabbadiPy](https://github.com/jatmanis1/ProKabbadiPy)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![AI](https://img.shields.io/badge/AI-Driven-orange)
+![Sports Analytics](https://img.shields.io/badge/Domain-Kabaddi-brightgreen)
+
+A cutting-edge **Python library for Kabaddi data analysis**, blending **AI-powered match summaries** with **predictive insights** to forecast future game outcomes.  
+It turns raw Kabaddi stats into **smart stories**, **visual insights**, and **data-driven predictions** — bringing the thrill of the mat to machine learning.
+
+
+---
 
 ## 🌐 Socials
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/manishjat.manish.505) 
