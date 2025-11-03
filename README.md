@@ -68,6 +68,25 @@ Built a robust **valuation system** that analyzes key attributes like CPU, GPU, 
 📊 **Outcome:** Delivered an interpretable regression model for laptop price prediction with high accuracy.
 
 
+### 🍽️ [Recipe Rating Prediction – Zomato User Reviews](#)
+A **Natural Language Processing + Machine Learning** project to predict a recipe’s user rating based on comments and engagement data from Zomato.  
+The system interprets text sentiment, user credibility, and engagement metrics to estimate ratings on a **1–5 scale** with remarkable accuracy.
+
+🧠 **Key Highlights:**
+- Performed full **EDA, feature engineering, and data preprocessing**
+- Applied **TF-IDF vectorization** on text data and **scaling/encoding** on structured data  
+- Trained multiple ML models: **Logistic Regression, KNN, Random Forest, LightGBM, XGBoost, Bagging, and Stacking**
+- Optimized all models using **RandomizedSearchCV** for best hyperparameters  
+
+🏆 **Results:**
+- **Top Models:** Stacking Classifier, XGBoost, LightGBM  
+- **Best Accuracy:** `0.80004`
+- **LightGBM Params:** `num_leaves=40`, `max_depth=15`, `learning_rate=0.1`, `feature_fraction=0.9`, `bagging_fraction=1`
+
+🧰 **Tech Stack:** Python, pandas, NumPy, scikit-learn, XGBoost, LightGBM, NLP (TF-IDF)
+📊 **Outcome:** Built a scalable ML pipeline capable of predicting user ratings from text reviews with 80% accuracy.
+
+
 ---
 
 ## 🌐 Socials
