@@ -78,7 +78,7 @@ A **FastAPI + LangChain** powered backend that performs **AI-driven data analysi
 
 ---
 
-### 📊 [Optimizing Inventory & Pricing – Shree Balaji Mobile Care](https://jatmanis1.github.io/tds_p2)
+### 📊 [Optimizing Inventory & Pricing – Shree Balaji Mobile Care](https://github.com/jatmanis1/sales-data-analysis-at-balaji-mobile)
 > 💼 *Retail Analytics Capstone (IIT Madras BDM)*
 
 <p align="center">
@@ -122,7 +122,7 @@ Focuses on **explainability** and **real-world valuation**.
 
 ---
 
-### 🍽️ Recipe Rating Prediction – Zomato Reviews
+### [🍽️ Recipe Rating Prediction – Zomato Reviews](https://github.com/jatmanis1/sales-data-analysis-at-balaji-mobile)
 > 🧠 *Predict ratings using NLP + ML models*
 
 <p align="center">
