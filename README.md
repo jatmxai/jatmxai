@@ -164,7 +164,7 @@ A **Flask-based backend** integrating **JWT Authentication**, **Celery async tas
 
 ---
 
-## ✨ Summary Table
+## ✨ Quick Overview 
 
 | 🧩 Project | 🏷️ Domain | ⚙️ Stack | 📈 Outcome |
 |------------|------------|-----------|-------------|
@@ -178,18 +178,6 @@ A **Flask-based backend** integrating **JWT Authentication**, **Celery async tas
 ---
 
 
-
-## 🌐 Socials
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/manishjat.manish.505) 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/jatmanis1) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jatmanis11) 
-[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@jatmanis1) 
-[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/jatmanis1) 
-[![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/jatmanis1) 
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@jatmanis1) 
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:jatmanis1.mail@gmail.com)  
-
----
 
 # 💻 Tech Stack
 **Languages & Tools for Data Analysis**  
@@ -253,6 +241,20 @@ A **Flask-based backend** integrating **JWT Authentication**, **Celery async tas
 
 ### 🏆 GitHub Trophies
 [![trophy](https://github-profile-trophy.vercel.app/?username=jatmanis1&theme=flat&row=1&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
+
+---
+
+
+
+## 🌐 Socials
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/manishjat.manish.505) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/jatmanis1) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jatmanis11) 
+[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@jatmanis1) 
+[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/jatmanis1) 
+[![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/jatmanis1) 
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@jatmanis1) 
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:jatmanis1.mail@gmail.com)  
 
 ---
 
