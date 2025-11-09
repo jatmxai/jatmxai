@@ -28,6 +28,165 @@
 | Deployment                 | ⭐⭐⭐ (Intermediate) | GitHub Actions, Docker, Streamlit, Vercel |
 
 ---
+
+## 🚀 Projects
+
+> 💡 *A showcase of my top Machine Learning, Data Analytics, and AI projects.*
+
+---
+
+### 🏏 [ProKabbadiPy](https://github.com/jatmanis1/ProKabbadiPy)
+> 🧠 *AI-Powered Kabaddi Analytics Library*
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI-Driven-orange" />
+  <img src="https://img.shields.io/badge/Domain-Kabaddi-brightgreen" />
+</p>
+
+A cutting-edge **Python library** for Kabaddi data analysis — blending **AI-driven match summaries** with predictive modeling.  
+Turns raw match data into **stories, stats, and smart forecasts** 🏆.
+
+**Highlights**
+- Predictive modeling for team performance  
+- AI-based match commentary generation  
+- Visual insights & win-probability analytics  
+
+🧰 **Tech Stack:** Python, pandas, NumPy, scikit-learn, Matplotlib  
+📊 **Outcome:** End-to-end sports analytics library that brings **AI to the mat**.
+
+---
+
+### 🤖 [Multi-Modal Data Analysis API v2.0](https://jatmanis1.github.io/tds_p2)
+> 🧩 *FastAPI + LangChain-based Multi-File AI Analysis*
+
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-green?logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-blue?logo=chainlink&logoColor=white" />
+  <img src="https://img.shields.io/badge/API-Multi--Modal-orange" />
+</p>
+
+A **FastAPI + LangChain** powered backend that performs **AI-driven data analysis** with multi-file upload & real-time workflow detection.
+
+**Highlights**
+- Text, image & dataset analysis in one endpoint  
+- Automated workflow detection using LangChain  
+- On-demand visualization & predictive analytics  
+
+🧰 **Tech Stack:** FastAPI, LangChain, OpenAI, Pandas, Python  
+📊 **Outcome:** A plug-and-play **AI data analysis API** built for versatility.
+
+---
+
+### 📊 [Optimizing Inventory & Pricing – Shree Balaji Mobile Care](https://jatmanis1.github.io/tds_p2)
+> 💼 *Retail Analytics Capstone (IIT Madras BDM)*
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-Data%20Analytics-blue" />
+  <img src="https://img.shields.io/badge/Capstone-IIT%20Madras-yellow" />
+  <img src="https://img.shields.io/badge/Domain-Retail%20Optimization-green" />
+</p>
+
+**Goal:** Optimize inventory turnover and pricing for a local mobile retailer.  
+Unlocked ₹2.1M in dead stock and recovered ₹527K annual revenue loss.  
+
+**Highlights**
+- ABC analysis & forecasting  
+- Regression-based pricing strategy  
+- Data dashboards in Python & Excel  
+
+🧰 **Tech Stack:** Python, pandas, seaborn, statsmodels, Excel  
+📊 **Outcome:** Data-backed **pricing & inventory framework** for retail growth.
+
+---
+
+### 💻 [CompuWorth: Hardware–Price Regression for Laptop Valuation](https://github.com/jatmanis1/easycomputer)
+> 💡 *Predict laptop prices using machine learning*
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ML-Regression-blue?logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3.9%2B-green?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/EDA-Complete-yellow" />
+</p>
+
+Predicts laptop prices using **regression models** on hardware specs (CPU, GPU, RAM, storage).  
+Focuses on **explainability** and **real-world valuation**.
+
+**Highlights**
+- Ridge, Polynomial & Linear Regression  
+- Hyperparameter tuning via Grid Search  
+- R² visualization for model selection  
+
+🧰 **Tech Stack:** Python, pandas, NumPy, scikit-learn, seaborn  
+📊 **Outcome:** Accurate, interpretable model for **real-world price estimation**.
+
+---
+
+### 🍽️ Recipe Rating Prediction – Zomato Reviews
+> 🧠 *Predict ratings using NLP + ML models*
+
+<p align="center">
+  <img src="https://img.shields.io/badge/NLP-purple?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/LightGBM-lightgreen" />
+  <img src="https://img.shields.io/badge/XGBoost-orange" />
+</p>
+
+Predicts user ratings (1–5) from Zomato review text using **TF-IDF**, **feature engineering**, and **ensemble models**.
+
+**Highlights**
+- End-to-end text preprocessing  
+- Multiple ML models + hyperparameter optimization  
+- Achieved **0.80 accuracy** with LightGBM  
+
+🧰 **Tech Stack:** Python, pandas, NumPy, scikit-learn, LightGBM, XGBoost  
+📊 **Outcome:** Built a robust **NLP rating predictor** with scalable ML pipeline.
+
+---
+
+### ⚙️ [Flask Service Manager API](https://github.com/jatmanis11/eh_live)
+> 🔐 *Asynchronous Flask API with JWT + Celery + Redis*
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Flask-black?logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/Celery%2BRedis-orange?logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-blue?logo=postgresql&logoColor=white" />
+</p>
+
+A **Flask-based backend** integrating **JWT Authentication**, **Celery async tasks**, and **Flask-Mail** for automated notifications.
+
+**Highlights**
+- Secure JWT auth  
+- Async mail handling via Celery + Redis  
+- Flask-Migrate for schema management  
+
+🧰 **Tech Stack:** Flask, Celery, Redis, Flask-Mail, PostgreSQL  
+📊 **Outcome:** A **production-ready backend** for automated service management.
+
+---
+
+## ✨ Summary Table
+
+| 🧩 Project | 🏷️ Domain | ⚙️ Stack | 📈 Outcome |
+|------------|------------|-----------|-------------|
+| 🏏 **ProKabbadiPy** | Sports Analytics | Python, ML | AI-powered match summaries |
+| 🤖 **Multi-Modal API** | AI Automation | FastAPI, LangChain | Multi-file AI insights |
+| 📊 **Retail Optimization** | Business Analytics | Python, Excel | +₹2.6M revenue recovered |
+| 💻 **CompuWorth** | ML Regression | scikit-learn | Laptop price prediction |
+| 🍽️ **Zomato NLP** | NLP + ML | LightGBM, XGBoost | 80% accuracy |
+| ⚙️ **Flask API** | Backend Dev | Flask, Celery, Redis | Async service automation |
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20with-Markdown-blue?logo=markdown&logoColor=white" />
+  <img src="https://img.shields.io/badge/Powered%20by-GitHub%20Actions-black?logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-181717?logo=github&logoColor=white" />
+</p>
+
+
+
+
+
 ## 🚀 Projects
 
 ### 🏏 [ProKabbadiPy](https://github.com/jatmanis1/ProKabbadiPy)
@@ -101,6 +260,7 @@ Designed to manage service requests efficiently with **RESTful APIs**, **Postgre
 📊 **Outcome:** A scalable, production-ready backend for service management and automated email workflows.
 
 ---
+
 
 ## 🌐 Socials
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/manishjat.manish.505) 
