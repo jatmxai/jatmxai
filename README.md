@@ -13,7 +13,7 @@
 🌱 Expanding skills in **Machine Learning for Analytics, LLM Integration, and Data Engineering**.  
 👯 Looking to collaborate on **Data Analytics, Business Intelligence, and Data-driven Web Apps**.  
 
-💬 **Skills:**  
+## 💬 **Skills:**  
 | Skill Area                | Level        | Tools & Tech |
 |----------------------------|-------------|--------------|
 | Python for Data Analysis   | ⭐⭐⭐⭐ (Expert) | Pandas, NumPy, SciPy, Matplotlib, Seaborn, Plotly, Jupyter Notebook |
