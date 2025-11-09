@@ -122,7 +122,7 @@ Focuses on **explainability** and **real-world valuation**.
 
 ---
 
-### [🍽️ Recipe Rating Prediction – Zomato Reviews](https://github.com/jatmanis1/sales-data-analysis-at-balaji-mobile)
+### [🍽️ Recipe Rating Prediction – Zomato Reviews](https://github.com/jatmanis1/food_rating)
 > 🧠 *Predict ratings using NLP + ML models*
 
 <p align="center">
