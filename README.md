@@ -35,147 +35,138 @@
 
 ## 🚀 Flagship Projects (Backend + AI Engineer)
 
-> 🚀 *A comprehensive 4-project portfolio demonstrating production-grade AI systems, distributed backend architecture, and LLM engineering.*
+> 🚀 *Production-grade AI systems demonstrating backend architecture, LLM engineering, and full-stack deployment.*
 
 ---
 
-### 1️⃣ **DocMind** — Production RAG System ⭐⭐⭐
+### 1️⃣ **DocMind** — Production RAG System ✅ LIVE
 > 🧠 *Multi-tenant AI Document Intelligence Platform*
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Status-DEPLOYED-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/FastAPI-00C8DF?style=for-the-badge&logo=fastapi" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini%202.5-4285F4?style=for-the-badge&logo=google" />
   <img src="https://img.shields.io/badge/Pinecone-2E3838?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloud%20Run-4285F4?style=for-the-badge&logo=google-cloud" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel" />
 </p>
 
-The **flagship project** combining all skills: Upload any documents → **Hybrid search** (Vector + BM25) → **LangChain agent** → Get answers **with citations** and **streaming responses**.
+**[🔗 Try Live Demo](https://docmind-frontend-two.vercel.app/)** · [Frontend Repo](https://github.com/jatmxai/docmind-frontend) · [Deploy Guide](https://github.com/jatmxai/docmind/blob/main/DEPLOY.md)
+
+Upload any document (PDF, CSV, DOCX, images) → Ask questions → Get **streaming answers with citations to exact pages/rows**.
 
 **What It Does:**
-- 📄 Multi-file ingestion (PDF, CSV, DOCX, URLs)
-- 🔍 Hybrid search with RRF reranking
-- 🤖 LangChain agent with tools (search, compare, extract, report generation)
-- 💾 Semantic caching with Redis
-- 🔐 Multi-tenant SaaS architecture with JWT auth
-- 📊 Rate limiting + usage tracking
+- 📄 Multi-format document ingestion (PDF, CSV, DOCX, PNG/JPG)
+- 🔍 Hybrid search (Vector embeddings + BM25 keyword search)
+- 🤖 Multi-step reasoning with tool use
+- 💾 Semantic caching + quota management (Redis)
+- 📊 Citation tracking (exact page/row references)
+- 🔐 Multi-tenant with JWT auth + per-user Pinecone namespaces
 
-**Why It's Impressive:**
-- ✅ Complete RAG pipeline (extraction → chunking → embedding → retrieval → generation)
-- ✅ Production-ready (FastAPI + PostgreSQL + Docker)
-- ✅ Full-stack (frontend in Next.js, backend in Python)
-- ✅ Advanced features (semantic cache, streaming, citations)
+**Engineering Highlights:**
+- ✅ **18-key Gemini pool** with round-robin + cooldown for rate-limit survival
+- ✅ **PgBouncer-safe asyncpg** (UUID-named prepared statements for stale connection safety)
+- ✅ **Matryoshka embedding truncation** (3072→768 dims, preserves cosine similarity)
+- ✅ **Server-Sent Events** for token-by-token streaming
+- ✅ Alembic migrations on container boot (scales to zero)
 
-🧰 **Tech Stack:** FastAPI, LangChain, Pinecone, PostgreSQL, Redis, Next.js, Docker, GitHub Actions  
-📊 **Outcome:** A **production RAG system** showing complete understanding of backend + AI
+🧰 **Tech Stack:** FastAPI, Gemini 2.5 Flash, Pinecone, Supabase (Postgres + Storage), Upstash Redis, Next.js + React, Cloud Run, GitHub Actions  
+📊 **Cost:** ~$5/month (free tiers + minimal paid)
 
-📁 **Status:** [Build Plan Ready](./portfolio%20projects/docmind_plan.md) | **Timeline:** 4 weeks
+🔧 **Status:** ✅ **DEPLOYED** — fully functional, live users
 
 ---
 
-### 2️⃣ **SentinelLM** — ML Model Training & Optimization ⭐⭐⭐
-> 🧠 *Fine-tuned Toxicity & Intent Classifier with ONNX Optimization*
+### 2️⃣ **SentinelLM** — ML Model + Production API ✅ LIVE
+> 🧠 *Fine-tuned Toxicity Classifier with ONNX Acceleration*
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Transformers-FBBF24?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-DEPLOYED-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/DistilBERT-FF6B6B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ONNX%202.56x-005CED?style=for-the-badge" />
   <img src="https://img.shields.io/badge/FastAPI-00C8DF?style=for-the-badge&logo=fastapi" />
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/HuggingFace%20Spaces-FFD21E?style=for-the-badge&logo=huggingface" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis" />
 </p>
 
-**Fine-tuned DistilBERT** for toxicity & adversarial intent detection. Optimized to **ONNX for 2.7x faster CPU inference**. Deployed with **FastAPI serving**, **Redis caching**, and **A/B testing**.
+**[🔗 Live API + Demo](https://huggingface.co/spaces/jatmanis1/sentinellm-space)** · [API Docs](https://jatmanis1-sentinellm-space.hf.space/docs) · [Model Card](https://huggingface.co/jatmanis1/sentinellm-v1)
+
+Fine-tuned **DistilBERT** for toxicity detection. Optimized to **ONNX for 2.56x faster CPU inference**. Deployed with async **FastAPI**, **exact-match Redis cache**, rule-based fast-path, and Postgres logging.
 
 **What It Does:**
-- 📊 Fine-tune DistilBERT on jigsaw-toxicity + CLINC datasets
-- ⚡ ONNX optimization (2.7x speedup on CPU)
-- 🔄 A/B testing endpoints for model validation
-- 💾 Redis inference cache
-- 📈 MLflow experiment tracking
+- 🧠 Binary toxicity classification (clean vs. toxic)
+- ⚡ ONNX optimization: PyTorch 24.8ms → ONNX 9.7ms p50 latency
+- 🚨 Rule pre-filter layer for jailbreak patterns (~1ms, deterministic)
+- 💾 Redis exact-match cache (99%+ hit rate for repeated inputs)
+- 📊 Prediction logging to Postgres
+- 🎯 JSON API + Gradio UI
 
-**Why It's Impressive:**
-- ✅ End-to-end ML: data → training → optimization → serving
-- ✅ Quantifiable impact (2.7x speedup)
-- ✅ Production patterns (versioning, caching, A/B testing)
-- ✅ Integrated into DocMind as safety layer
+**Engineering Highlights:**
+- ✅ **2.56x speedup** from ONNX (single-sample and batch-32)
+- ✅ **Civil Comments dataset** (200k rows, stratified, unbiased sample)
+- ✅ **F1 0.89, accuracy 0.94** on validation set
+- ✅ **Rule layer short-circuits** known attack patterns before model inference
+- ✅ **SQLite or Postgres** logging (works in Spaces or self-hosted)
 
-🧰 **Tech Stack:** DistilBERT, PyTorch, ONNX, FastAPI, Redis, MLflow, HuggingFace Hub  
-📊 **Outcome:** **Proves ML engineering credibility** + production model deployment
+🧰 **Tech Stack:** DistilBERT, PyTorch, ONNX Runtime, FastAPI, Redis, PostgreSQL/SQLite, HuggingFace Spaces  
+📊 **Cost:** $0/month (free HF Spaces + optional Railway backend)
 
-📁 **Status:** [Build Plan Ready](./portfolio%20projects/sentinellm_plan.md) | **Timeline:** 3 weeks
+🔧 **Status:** ✅ **DEPLOYED** — 18 test cases, live inference
 
 ---
 
-### 3️⃣ **DriftDetect** — LLM Monitoring & MLOps ⭐⭐⭐
-> 📊 *LLM Prompt Behavior Drift Monitor with Time-Series Metrics*
-
-<p align="center">
-  <img src="https://img.shields.io/badge/FastAPI-00C8DF?style=for-the-badge&logo=fastapi" />
-  <img src="https://img.shields.io/badge/TimescaleDB-0F7B99?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Celery-37B24D?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Plotly%20Dash-003D82?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Sentence%20Transformers-FF6B6B?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge" />
-</p>
-
-Continuously monitors LLM outputs for **semantic drift**, **tone shifts**, **factual consistency**, and **hallucination rates**. Uses **sentence embeddings** + **LLM-as-judge** evaluation.
-
-**What It Does:**
-- 🔄 Scheduled prompt execution (hourly/daily/weekly)
-- 📊 Semantic similarity tracking vs baseline
-- 🎯 Composite drift scoring (weighted metrics)
-- 🤖 LLM judge for factual consistency
-- 📈 Time-series storage in TimescaleDB
-- 🎨 Live Plotly Dash dashboard
-- 🔔 Webhook + email alerting
-- Monitors SentinelLM in production
-
-**Why It's Impressive:**
-- ✅ Shows MLOps maturity (you monitor your systems)
-- ✅ Complex backend (TimescaleDB, async tasks, dashboards)
-- ✅ AI evaluation (embeddings, LLM judge)
-- ✅ Completes the loop: build → serve → monitor
-
-🧰 **Tech Stack:** TimescaleDB, Celery, FastAPI, Plotly Dash, sentence-transformers, OpenAI  
-📊 **Outcome:** **Demonstrates MLOps expertise** + understanding of LLM quality degradation
-
-📁 **Status:** [Build Plan Ready](./portfolio%20projects/driftdetect_plan.md) | **Timeline:** 4 weeks
-
----
-
-### 4️⃣ **API Rate Limiter** — Distributed Systems & Anomaly Detection ⭐⭐
+### 3️⃣ **API Rate Limiter** — Distributed Systems ⏳ COMING SOON
 > ⚙️ *Intelligent Rate Limiting + Traffic Analytics + ML Anomaly Detection*
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Status-BUILDING-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/FastAPI-00C8DF?style=for-the-badge&logo=fastapi" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Lua%20Scripts-2C3E50?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Redis%20Lua-DC382D?style=for-the-badge&logo=redis" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql" />
   <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge" />
 </p>
 
-**4 rate limiting algorithms** (sliding window, token bucket, fixed window, leaky bucket) backed by **Redis Lua scripts** for atomic operations. Real-time **WebSocket dashboard** + **Isolation Forest anomaly detection**.
+**4 rate limiting algorithms** backed by **Redis Lua scripts** for atomic operations. Real-time **WebSocket dashboard** + **Isolation Forest ML anomaly detection** for DDoS/scraper detection.
 
 **What It Does:**
 - 🔒 Token bucket, sliding window, fixed window, leaky bucket algorithms
-- ⚛️ Redis Lua scripts for atomicity (no race conditions!)
+- ⚛️ Redis Lua scripts for atomicity (prevents race conditions)
 - 📊 Real-time traffic analytics via WebSocket
-- 🚨 ML-based anomaly detection (DDoS, scrapers, spikes)
-- 🔔 Webhook alerting for anomalies
-- 📈 Traffic logs in PostgreSQL
+- 🚨 ML-based anomaly detection (DDoS, scrapers, traffic spikes)
+- 🔔 Webhook alerting system
+- 📈 Multi-tenant traffic logging in PostgreSQL
 
-**Why It's Impressive:**
-- ✅ Deep systems thinking (distributed algorithms, race conditions)
-- ✅ Production patterns (Redis, WebSocket, monitoring)
-- ✅ Shows you understand why Lua scripts matter
+**Why It's Important:**
+- ✅ Distributed systems thinking (algorithms, race conditions, atomicity)
+- ✅ Production infrastructure patterns (Redis, WebSocket, monitoring)
+- ✅ Understanding why Lua scripts matter in production
 
-🧰 **Tech Stack:** FastAPI, Redis, PostgreSQL, Lua, scikit-learn, WebSocket, Celery  
-📊 **Outcome:** **Distributed systems expertise** + understanding scalability & reliability
+🧰 **Tech Stack:** FastAPI, Redis, PostgreSQL, Lua scripts, scikit-learn, WebSocket, Celery  
+📊 **Timeline:** 5 weeks | **Plan:** [api_rate_limiter_plan.md](./portfolio%20projects/api_rate_limiter_plan.md)
 
-📁 **Status:** [Build Plan Ready](./portfolio%20projects/api_rate_limiter_plan.md) | **Timeline:** 5 weeks
+🔧 **Status:** ⏳ **IN DEVELOPMENT** — [Demo link coming soon]
+
+---
+
+### 4️⃣ **DriftDetect** — LLM Monitoring & MLOps ⏳ COMING SOON
+> 📊 *LLM Prompt Behavior Drift Detection with Time-Series Metrics*
+
+**Continuously monitors LLM output quality** for semantic drift, tone shifts, factual consistency, and hallucination rates using sentence embeddings + LLM-as-judge evaluation.
+
+**Features:**
+- 🔄 Scheduled prompt execution (hourly/daily/weekly)
+- 📊 Semantic similarity tracking vs baseline (TimescaleDB time-series)
+- 🎯 Composite drift scoring (semantic, tone, factual, hallucination)
+- 🤖 GPT-4o-mini LLM judge for evaluation
+- 📈 Plotly Dash live dashboard
+- 🔔 Webhook + email alerting
+- Integrates with SentinelLM monitoring
+
+🧰 **Tech Stack:** TimescaleDB, Celery beat, FastAPI, Plotly Dash, sentence-transformers, OpenAI  
+📊 **Timeline:** 4 weeks | **Plan:** [driftdetect_plan.md](./portfolio%20projects/driftdetect_plan.md)
+
+🔧 **Status:** ⏳ **PLANNED** — Coming after API Rate Limiter
 
 ---
 
@@ -213,17 +204,19 @@ A **self-built Claude Code equivalent** powered by Google's Gemini API. Multi-mo
 
 ---
 
-## ✨ Quick Overview
+## ✨ Project Status Overview
 
-| 🎯 Project | 🏷️ Focus | 🎓 Shows | ⏱️ Timeline |
-|-----------|----------|---------|-----------|
-| **DocMind** | Production RAG | Full-stack AI systems | 4 weeks |
-| **SentinelLM** | ML model training | ML engineering | 3 weeks |
-| **DriftDetect** | LLM monitoring | MLOps & evaluation | 4 weeks |
-| **API Rate Limiter** | Distributed systems | Backend architecture | 5 weeks |
-| **AI Coding Agent** | LLM orchestration | Advanced AI/LLM systems | ∞ active |
+| 🎯 Project | Status | Focus | Stack Highlight |
+|-----------|--------|-------|-----------------|
+| **DocMind** | ✅ **LIVE** | Production RAG | Gemini + Pinecone + Cloud Run |
+| **SentinelLM** | ✅ **LIVE** | ML + Serving | DistilBERT + ONNX (2.56x) + HF Spaces |
+| **API Rate Limiter** | ⏳ BUILDING | Distributed Systems | Redis Lua + WebSocket + Anomaly Detection |
+| **DriftDetect** | 🔄 PLANNED | MLOps & Monitoring | TimescaleDB + Celery + LLM Judge |
+| **AI Coding Agent** | ⚡ ACTIVE | LLM Orchestration | Multi-model + Tool Use + Multi-platform |
 
-**Total: 16 weeks to become a Backend + AI Engineer** 🚀
+**Completed: 2/4 Flagship Projects** ✅  
+**In Progress: 1/4** ⏳  
+**Planned: 1/4** 🔄
 
 ---
 
