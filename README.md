@@ -115,37 +115,51 @@ Fine-tuned **DistilBERT** for toxicity detection. Optimized to **ONNX for 2.56x 
 
 ---
 
-### 3️⃣ **API Rate Limiter** — Distributed Systems ⏳ COMING SOON
+### 3️⃣ **API Rate Limiter** — Distributed Systems ✅ LIVE
 > ⚙️ *Intelligent Rate Limiting + Traffic Analytics + ML Anomaly Detection*
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-BUILDING-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-DEPLOYED-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/FastAPI-00C8DF?style=for-the-badge&logo=fastapi" />
   <img src="https://img.shields.io/badge/Redis%20Lua-DC382D?style=for-the-badge&logo=redis" />
   <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql" />
-  <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Cloud%20Run-4285F4?style=for-the-badge&logo=google-cloud" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge" />
 </p>
 
-**4 rate limiting algorithms** backed by **Redis Lua scripts** for atomic operations. Real-time **WebSocket dashboard** + **Isolation Forest ML anomaly detection** for DDoS/scraper detection.
+**[🔗 Live Dashboard](https://rate-limiter-dashboard-66084283783.asia-south1.run.app)** · [API](https://rate-limiter-66084283783.asia-south1.run.app) · [Docs](https://rate-limiter-docs-66084283783.asia-south1.run.app) · [GitHub](https://github.com/jatmxai-lab/rate-limiter)
+
+A **standalone rate-limiting service** for FastAPI/Django/Express apps. 4 pluggable algorithms, multi-tenant rules, live WebSocket dashboard, ML anomaly detection, and webhook alerts.
 
 **What It Does:**
-- 🔒 Token bucket, sliding window, fixed window, leaky bucket algorithms
-- ⚛️ Redis Lua scripts for atomicity (prevents race conditions)
-- 📊 Real-time traffic analytics via WebSocket
-- 🚨 ML-based anomaly detection (DDoS, scrapers, traffic spikes)
-- 🔔 Webhook alerting system
-- 📈 Multi-tenant traffic logging in PostgreSQL
+- 🔒 **4 algorithms** (token bucket, sliding window, fixed window, leaky bucket)
+- ⚛️ **Redis Lua scripts** for atomic operations (no race conditions)
+- 📊 **Real-time WebSocket dashboard** with traffic analytics
+- 🚨 **Isolation Forest ML** anomaly detection (DDoS, scrapers, spikes)
+- 🔔 **Webhook alerts** on anomalies per tenant
+- 📈 **Multi-tenant** with durable Postgres history + hot Redis cache
+- 🌍 **Cloud Scheduler** instead of Celery (scales to zero cost)
 
-**Why It's Important:**
-- ✅ Distributed systems thinking (algorithms, race conditions, atomicity)
-- ✅ Production infrastructure patterns (Redis, WebSocket, monitoring)
-- ✅ Understanding why Lua scripts matter in production
+**Engineering Highlights:**
+- ✅ **Single Lua script** for atomic sliding-window check (ZREMRANGEBYSCORE + ZCARD + conditional ZADD)
+- ✅ **Two-store pattern** — Redis for hot path (per-request), Postgres for cold (config + history)
+- ✅ **Cloud Scheduler** replaces always-on Celery — `/admin/flush-traffic` every 1m, `/admin/detect-anomalies` every 5m
+- ✅ **Pre-seeded demo tenant** — anyone can test immediately
+- ✅ **100% free tier** — Upstash Redis, Supabase Postgres, Google Cloud Run, Cloud Scheduler
 
-🧰 **Tech Stack:** FastAPI, Redis, PostgreSQL, Lua scripts, scikit-learn, WebSocket, Celery  
-📊 **Timeline:** 5 weeks | **Plan:** [api_rate_limiter_plan.md](./portfolio%20projects/api_rate_limiter_plan.md)
+**Test it:**
+```bash
+curl -X POST https://rate-limiter-66084283783.asia-south1.run.app/check \
+  -H 'X-API-Key: rl_demo_E7cFY2HYBSNGlK1L' \
+  -H 'Content-Type: application/json' \
+  -d '{"identifier":"198.51.100.1","endpoint":"/api/login","method":"POST"}'
+```
+Burst 6× — the 6th returns `{"allowed":false}` from the `fixed_window 5/min` rule.
 
-🔧 **Status:** ⏳ **IN DEVELOPMENT** — [Demo link coming soon]
+🧰 **Tech Stack:** FastAPI, Redis (Lua), PostgreSQL, scikit-learn (Isolation Forest), Cloud Scheduler, Cloud Run, React + WebSocket, GitHub Actions  
+📊 **Cost:** $0/month (all free tiers)
+
+🔧 **Status:** ✅ **DEPLOYED** — 47 tests, live users, docs with integration guides
 
 ---
 
@@ -206,17 +220,17 @@ A **self-built Claude Code equivalent** powered by Google's Gemini API. Multi-mo
 
 ## ✨ Project Status Overview
 
-| 🎯 Project | Status | Focus | Stack Highlight |
-|-----------|--------|-------|-----------------|
-| **DocMind** | ✅ **LIVE** | Production RAG | Gemini + Pinecone + Cloud Run |
-| **SentinelLM** | ✅ **LIVE** | ML + Serving | DistilBERT + ONNX (2.56x) + HF Spaces |
-| **API Rate Limiter** | ⏳ BUILDING | Distributed Systems | Redis Lua + WebSocket + Anomaly Detection |
-| **DriftDetect** | 🔄 PLANNED | MLOps & Monitoring | TimescaleDB + Celery + LLM Judge |
-| **AI Coding Agent** | ⚡ ACTIVE | LLM Orchestration | Multi-model + Tool Use + Multi-platform |
+| 🎯 Project | Status | Focus | Live Demo |
+|-----------|--------|-------|-----------|
+| **DocMind** | ✅ **DEPLOYED** | Production RAG | [Try it](https://docmind-frontend-two.vercel.app/) |
+| **SentinelLM** | ✅ **DEPLOYED** | ML Classifier | [Try it](https://huggingface.co/spaces/jatmanis1/sentinellm-space) |
+| **API Rate Limiter** | ✅ **DEPLOYED** | Distributed Systems | [Dashboard](https://rate-limiter-dashboard-66084283783.asia-south1.run.app) |
+| **DriftDetect** | 🔄 PLANNED | MLOps & Monitoring | Coming next |
+| **AI Coding Agent** | ⚡ ACTIVE | LLM Orchestration | Multi-platform |
 
-**Completed: 2/4 Flagship Projects** ✅  
-**In Progress: 1/4** ⏳  
-**Planned: 1/4** 🔄
+**✅ 3/4 Flagship Projects Deployed** 🚀  
+**📊 100% Free-Tier Infrastructure**  
+**📈 Production-Grade Systems**
 
 ---
 
