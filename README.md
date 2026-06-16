@@ -161,26 +161,6 @@ Burst 6× — the 6th returns `{"allowed":false}` from the `fixed_window 5/min` 
 
 🔧 **Status:** ✅ **DEPLOYED** — 47 tests, live users, docs with integration guides
 
----
-
-### 4️⃣ **DriftDetect** — LLM Monitoring & MLOps ⏳ COMING SOON
-> 📊 *LLM Prompt Behavior Drift Detection with Time-Series Metrics*
-
-**Continuously monitors LLM output quality** for semantic drift, tone shifts, factual consistency, and hallucination rates using sentence embeddings + LLM-as-judge evaluation.
-
-**Features:**
-- 🔄 Scheduled prompt execution (hourly/daily/weekly)
-- 📊 Semantic similarity tracking vs baseline (TimescaleDB time-series)
-- 🎯 Composite drift scoring (semantic, tone, factual, hallucination)
-- 🤖 GPT-4o-mini LLM judge for evaluation
-- 📈 Plotly Dash live dashboard
-- 🔔 Webhook + email alerting
-- Integrates with SentinelLM monitoring
-
-🧰 **Tech Stack:** TimescaleDB, Celery beat, FastAPI, Plotly Dash, sentence-transformers, OpenAI  
-📊 **Timeline:** 4 weeks | **Plan:** [driftdetect_plan.md](./portfolio%20projects/driftdetect_plan.md)
-
-🔧 **Status:** ⏳ **PLANNED** — Coming after API Rate Limiter
 
 ---
 
@@ -218,19 +198,18 @@ A **self-built Claude Code equivalent** powered by Google's Gemini API. Multi-mo
 
 ---
 
-## ✨ Project Status Overview
+## ✨ Live Projects
 
-| 🎯 Project | Status | Focus | Live Demo |
-|-----------|--------|-------|-----------|
-| **DocMind** | ✅ **DEPLOYED** | Production RAG | [Try it](https://docmind-frontend-two.vercel.app/) |
-| **SentinelLM** | ✅ **DEPLOYED** | ML Classifier | [Try it](https://huggingface.co/spaces/jatmanis1/sentinellm-space) |
-| **API Rate Limiter** | ✅ **DEPLOYED** | Distributed Systems | [Dashboard](https://rate-limiter-dashboard-66084283783.asia-south1.run.app) |
-| **DriftDetect** | 🔄 PLANNED | MLOps & Monitoring | Coming next |
+| 🎯 Project | Status | Focus | Demo |
+|-----------|--------|-------|------|
+| **DocMind** | ✅ **LIVE** | Production RAG | [Try it](https://docmind-frontend-two.vercel.app/) |
+| **SentinelLM** | ✅ **LIVE** | ML Classifier | [Try it](https://huggingface.co/spaces/jatmanis1/sentinellm-space) |
+| **API Rate Limiter** | ✅ **LIVE** | Distributed Systems | [Dashboard](https://rate-limiter-dashboard-66084283783.asia-south1.run.app) |
 | **AI Coding Agent** | ⚡ ACTIVE | LLM Orchestration | Multi-platform |
 
-**✅ 3/4 Flagship Projects Deployed** 🚀  
-**📊 100% Free-Tier Infrastructure**  
-**📈 Production-Grade Systems**
+**✅ 3 Flagship Systems Deployed + Live**  
+**📊 100% Production-Grade**  
+**💰 Mostly Free Tier**
 
 ---
 
