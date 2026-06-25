@@ -51,7 +51,7 @@
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel" />
 </p>
 
-**[🔗 Try Live Demo](https://docmind-frontend-two.vercel.app/)** · [Frontend Repo](https://github.com/jatmxai/docmind-frontend) · [Deploy Guide](https://github.com/jatmxai/docmind/blob/main/DEPLOY.md)
+**[🔗 Try Live Demo](https://docmind-frontend-two.vercel.app/)** · [Frontend Repo](https://github.com/jatmxai/docmind-frontend) · [Deploy Guide](https://github.com/jatmxai-lab/docmind/blob/main/DEPLOY.md)
 
 Upload any document (PDF, CSV, DOCX, images) → Ask questions → Get **streaming answers with citations to exact pages/rows**.
 
