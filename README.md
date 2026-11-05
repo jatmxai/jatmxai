@@ -59,12 +59,10 @@ A standalone rate-limiting service for FastAPI, Django and Express apps, with a 
 
 `FastAPI` `Redis Lua` `Postgres` `scikit-learn` `React` `WebSocket` `Cloud Run`
 
-### 🧑‍💼 VedQo: AI candidate screening for recruiters
+### 🏢 VedQo: engineering studio for production AI agents
 [vedqo.in](https://vedqo.in)
 
-My current product. It helps recruiters shortlist candidates faster with AI-scored assessments and JD-to-candidate matching. Pilots are running with recruiters in Rajasthan.
-
-`Next.js` `Supabase` `pgvector` `Claude API`
+The company I co-founded. We build custom AI agents around real business workflows and ship them with the controls production needs: permissions, a safe test environment, human sign-off on risky actions, and a full audit trail. We also build and run the software and cloud systems those agents live on.
 
 ---
 
