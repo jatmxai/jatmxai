@@ -1,310 +1,76 @@
+# Hi, I'm Manish Jat 👋
 
-<h1 align="center">Hi 👋, I'm Manish Jat</h1>
-<h3 align="center">Backend + AI Engineer | Production LLM Systems | Distributed Systems</h3>
+**AI Engineer: I build production RAG systems, AI agents and LLM-powered backends.**
+Co-founder of [VedQo](https://vedqo.in) · Rajasthan, India · Working with startups worldwide
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=jatmxai&label=Profile%20views&color=0e75b6&style=flat" alt="jatmxai" />
-</p>
-
----
-
-🚀 Building **production-grade AI systems** that scale — RAG pipelines, ML model serving, and backend infrastructure  
-🧠 Expertise in **LangChain, FastAPI, PostgreSQL, Redis, Pinecone, and vector databases**  
-🔧 I don't just call LLM APIs — I understand **both backend architecture AND AI/ML systems**  
-👯 Looking to collaborate on **RAG systems, AI infrastructure, and full-stack AI applications**  
+[![Email](https://img.shields.io/badge/Email-hr.vedqo%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:hr.vedqo@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jatmanis11-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/jatmanis11)
+[![X](https://img.shields.io/badge/X-jatmanis1-black?logo=x&logoColor=white)](https://x.com/jatmanis1)
 
 ---
 
+## What I can build for you
 
-## 💬 **Core Skills for Backend + AI Engineer**
+- **Chat over your data (RAG):** answers grounded in your documents, with citations, hybrid search and multi-tenant isolation
+- **AI agents:** tool-using LLM workflows that automate support, ops and back-office tasks
+- **Custom models and fast inference APIs:** fine-tuning, ONNX optimisation, FastAPI serving
+- **Full AI products:** together with my co-founder (full-stack), from idea to a deployed MVP
 
-| Skill Area                      | Level                    | Tools & Tech |
-|---------------------------------|--------------------------|--------------|
-| **Backend API Development**     | ⭐⭐⭐⭐⭐ (Expert) | FastAPI, async/await, REST APIs, GraphQL, JWT auth |
-| **Database Design & Optimization** | ⭐⭐⭐⭐ (Advanced) | PostgreSQL, Redis, vector databases (Pinecone, Chroma), TimescaleDB |
-| **LLM Integration & RAG**       | ⭐⭐⭐⭐⭐ (Expert) | LangChain, embeddings, hybrid search, LLM orchestration, OpenAI, Anthropic |
-| **ML Model Training & Optimization** | ⭐⭐⭐⭐ (Advanced) | PyTorch, DistilBERT, ONNX optimization, fine-tuning, MLflow |
-| **Distributed Systems & Caching** | ⭐⭐⭐⭐ (Advanced) | Redis, Redis Lua scripts, rate limiting, anomaly detection |
-| **Async & Real-time Systems**  | ⭐⭐⭐⭐ (Advanced) | Celery, async workers, WebSockets, message queues |
-| **Data Processing Pipelines**   | ⭐⭐⭐⭐ (Advanced) | Batch processing, ETL, document ingestion, streaming |
-| **Monitoring & MLOps**          | ⭐⭐⭐⭐ (Advanced) | TimescaleDB, metrics collection, drift detection, dashboards, alerting |
-| **Full-Stack Integration**      | ⭐⭐⭐⭐ (Advanced) | Next.js, Vue.js, Docker, GitHub Actions CI/CD |
-| **Python Engineering**          | ⭐⭐⭐⭐⭐ (Expert) | Type hints, async patterns, testing, production code quality |
+Have an AI feature on your roadmap? **[Email me](mailto:hr.vedqo@gmail.com)** with a short description and I'll reply within 24 hours.
 
 ---
 
-## 🚀 Flagship Projects (Backend + AI Engineer)
+## Featured work
 
-> 🚀 *Production-grade AI systems demonstrating backend architecture, LLM engineering, and full-stack deployment.*
+### 📄 DocMind: document Q&A with exact citations
+[Live demo](https://docmind-frontend-two.vercel.app/) · [Backend](https://github.com/jatmxai-lab/docmind) · [Frontend](https://github.com/jatmxai/docmind-frontend)
 
----
+Upload PDFs, CSVs, Word documents or images and ask questions. Answers stream token by token, with citations to the exact page or row.
 
-### 1️⃣ **DocMind** — Production RAG System ✅ LIVE
-> 🧠 *Multi-tenant AI Document Intelligence Platform*
+- Hybrid retrieval (vector + BM25) over per-user Pinecone namespaces for tenant isolation
+- Multimodal ingestion with Gemini, so images are handled without a separate OCR step
+- Semantic caching and server-enforced quotas in Redis, with automatic refunds on failed uploads
+- API-key rotation with cooldown on HTTP 429 and graceful degradation under rate limits
+- Built to run on serverless Postgres: transaction pooler, migrations on boot, scales to zero
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-DEPLOYED-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/FastAPI-00C8DF?style=for-the-badge&logo=fastapi" />
-  <img src="https://img.shields.io/badge/Gemini%202.5-4285F4?style=for-the-badge&logo=google" />
-  <img src="https://img.shields.io/badge/Pinecone-2E3838?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Cloud%20Run-4285F4?style=for-the-badge&logo=google-cloud" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel" />
-</p>
+`FastAPI` `Gemini` `Pinecone` `Postgres` `Redis` `React` `Cloud Run` `GitHub Actions`
 
-**[🔗 Try Live Demo](https://docmind-frontend-two.vercel.app/)** · [Frontend Repo](https://github.com/jatmxai/docmind-frontend) · [Deploy Guide](https://github.com/jatmxai-lab/docmind/blob/main/DEPLOY.md)
+### 🛡️ SentinelLM: fine-tuned toxicity classifier, 2.56× faster on CPU
+[Live demo](https://huggingface.co/spaces/jatmanis1/sentinellm-space) · [API docs](https://jatmanis1-sentinellm-space.hf.space/docs) · [Model card](https://huggingface.co/jatmanis1/sentinellm-v1) · [Code](https://github.com/jatmxai-lab/sentinellm)
 
-Upload any document (PDF, CSV, DOCX, images) → Ask questions → Get **streaming answers with citations to exact pages/rows**.
+DistilBERT fine-tuned on Civil Comments, exported to ONNX and served behind an async API.
 
-**What It Does:**
-- 📄 Multi-format document ingestion (PDF, CSV, DOCX, PNG/JPG)
-- 🔍 Hybrid search (Vector embeddings + BM25 keyword search)
-- 🤖 Multi-step reasoning with tool use
-- 💾 Semantic caching + quota management (Redis)
-- 📊 Citation tracking (exact page/row references)
-- 🔐 Multi-tenant with JWT auth + per-user Pinecone namespaces
+- **F1 0.89 · accuracy 0.94** on a stratified validation set
+- **p50 latency 24.8 ms → 9.7 ms** after the ONNX export
+- A rule-based pre-filter catches known jailbreak patterns in about 1 ms, before the model runs
+- Redis cache for repeated inputs; every prediction logged to Postgres
 
-**Engineering Highlights:**
-- ✅ **18-key Gemini pool** with round-robin + cooldown for rate-limit survival
-- ✅ **PgBouncer-safe asyncpg** (UUID-named prepared statements for stale connection safety)
-- ✅ **Matryoshka embedding truncation** (3072→768 dims, preserves cosine similarity)
-- ✅ **Server-Sent Events** for token-by-token streaming
-- ✅ Alembic migrations on container boot (scales to zero)
+`PyTorch` `Transformers` `ONNX Runtime` `FastAPI` `Redis` `Hugging Face`
 
-🧰 **Tech Stack:** FastAPI, Gemini 2.5 Flash, Pinecone, Supabase (Postgres + Storage), Upstash Redis, Next.js + React, Cloud Run, GitHub Actions  
-📊 **Cost:** ~$5/month (free tiers + minimal paid)
+### ⚡ Rate limiter: multi-tenant rate limiting with ML anomaly detection
+[Code and docs](https://github.com/jatmxai-lab/rate-limiter)
 
-🔧 **Status:** ✅ **DEPLOYED** — fully functional, live users
+A standalone rate-limiting service for FastAPI, Django and Express apps, with a live traffic dashboard.
 
----
+- 4 algorithms (sliding window, token bucket, fixed window, leaky bucket), each atomic through a Redis Lua script
+- Hot path in Redis, durable config and history in Postgres
+- Isolation Forest flags scraping, credential stuffing and traffic spikes, then sends a webhook alert to the tenant
+- Python SDK with a 3-line FastAPI integration; pytest suite in CI; documentation site built with MkDocs
 
-### 2️⃣ **SentinelLM** — ML Model + Production API ✅ LIVE
-> 🧠 *Fine-tuned Toxicity Classifier with ONNX Acceleration*
+`FastAPI` `Redis Lua` `Postgres` `scikit-learn` `React` `WebSocket` `Cloud Run`
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-DEPLOYED-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/DistilBERT-FF6B6B?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/ONNX%202.56x-005CED?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/FastAPI-00C8DF?style=for-the-badge&logo=fastapi" />
-  <img src="https://img.shields.io/badge/HuggingFace%20Spaces-FFD21E?style=for-the-badge&logo=huggingface" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis" />
-</p>
+### 🧑‍💼 VedQo: AI candidate screening for recruiters
+[vedqo.in](https://vedqo.in)
 
-**[🔗 Live API + Demo](https://huggingface.co/spaces/jatmanis1/sentinellm-space)** · [API Docs](https://jatmanis1-sentinellm-space.hf.space/docs) · [Model Card](https://huggingface.co/jatmanis1/sentinellm-v1)
+My current product. It helps recruiters shortlist candidates faster with AI-scored assessments and JD-to-candidate matching. Pilots are running with recruiters in Rajasthan.
 
-Fine-tuned **DistilBERT** for toxicity detection. Optimized to **ONNX for 2.56x faster CPU inference**. Deployed with async **FastAPI**, **exact-match Redis cache**, rule-based fast-path, and Postgres logging.
-
-**What It Does:**
-- 🧠 Binary toxicity classification (clean vs. toxic)
-- ⚡ ONNX optimization: PyTorch 24.8ms → ONNX 9.7ms p50 latency
-- 🚨 Rule pre-filter layer for jailbreak patterns (~1ms, deterministic)
-- 💾 Redis exact-match cache (99%+ hit rate for repeated inputs)
-- 📊 Prediction logging to Postgres
-- 🎯 JSON API + Gradio UI
-
-**Engineering Highlights:**
-- ✅ **2.56x speedup** from ONNX (single-sample and batch-32)
-- ✅ **Civil Comments dataset** (200k rows, stratified, unbiased sample)
-- ✅ **F1 0.89, accuracy 0.94** on validation set
-- ✅ **Rule layer short-circuits** known attack patterns before model inference
-- ✅ **SQLite or Postgres** logging (works in Spaces or self-hosted)
-
-🧰 **Tech Stack:** DistilBERT, PyTorch, ONNX Runtime, FastAPI, Redis, PostgreSQL/SQLite, HuggingFace Spaces  
-📊 **Cost:** $0/month (free HF Spaces + optional Railway backend)
-
-🔧 **Status:** ✅ **DEPLOYED** — 18 test cases, live inference
+`Next.js` `Supabase` `pgvector` `Claude API`
 
 ---
 
-### 3️⃣ **API Rate Limiter** — Distributed Systems ✅ LIVE
-> ⚙️ *Intelligent Rate Limiting + Traffic Analytics + ML Anomaly Detection*
+## Stack
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-DEPLOYED-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/FastAPI-00C8DF?style=for-the-badge&logo=fastapi" />
-  <img src="https://img.shields.io/badge/Redis%20Lua-DC382D?style=for-the-badge&logo=redis" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql" />
-  <img src="https://img.shields.io/badge/Cloud%20Run-4285F4?style=for-the-badge&logo=google-cloud" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge" />
-</p>
-
-**[🔗 Live Dashboard](https://rate-limiter-dashboard-66084283783.asia-south1.run.app)** · [API](https://rate-limiter-66084283783.asia-south1.run.app) · [Docs](https://rate-limiter-docs-66084283783.asia-south1.run.app) · [GitHub](https://github.com/jatmxai-lab/rate-limiter)
-
-A **standalone rate-limiting service** for FastAPI/Django/Express apps. 4 pluggable algorithms, multi-tenant rules, live WebSocket dashboard, ML anomaly detection, and webhook alerts.
-
-**What It Does:**
-- 🔒 **4 algorithms** (token bucket, sliding window, fixed window, leaky bucket)
-- ⚛️ **Redis Lua scripts** for atomic operations (no race conditions)
-- 📊 **Real-time WebSocket dashboard** with traffic analytics
-- 🚨 **Isolation Forest ML** anomaly detection (DDoS, scrapers, spikes)
-- 🔔 **Webhook alerts** on anomalies per tenant
-- 📈 **Multi-tenant** with durable Postgres history + hot Redis cache
-- 🌍 **Cloud Scheduler** instead of Celery (scales to zero cost)
-
-**Engineering Highlights:**
-- ✅ **Single Lua script** for atomic sliding-window check (ZREMRANGEBYSCORE + ZCARD + conditional ZADD)
-- ✅ **Two-store pattern** — Redis for hot path (per-request), Postgres for cold (config + history)
-- ✅ **Cloud Scheduler** replaces always-on Celery — `/admin/flush-traffic` every 1m, `/admin/detect-anomalies` every 5m
-- ✅ **Pre-seeded demo tenant** — anyone can test immediately
-- ✅ **100% free tier** — Upstash Redis, Supabase Postgres, Google Cloud Run, Cloud Scheduler
-
-**Test it:**
-```bash
-curl -X POST https://rate-limiter-66084283783.asia-south1.run.app/check \
-  -H 'X-API-Key: rl_demo_E7cFY2HYBSNGlK1L' \
-  -H 'Content-Type: application/json' \
-  -d '{"identifier":"198.51.100.1","endpoint":"/api/login","method":"POST"}'
-```
-Burst 6× — the 6th returns `{"allowed":false}` from the `fixed_window 5/min` rule.
-
-🧰 **Tech Stack:** FastAPI, Redis (Lua), PostgreSQL, scikit-learn (Isolation Forest), Cloud Scheduler, Cloud Run, React + WebSocket, GitHub Actions  
-📊 **Cost:** $0/month (all free tiers)
-
-🔧 **Status:** ✅ **DEPLOYED** — 47 tests, live users, docs with integration guides
-
-
----
-
-## 🎁 Bonus Project
-
-### 🤖 **AI Coding Agent** — Multi-Model LLM Orchestration ⭐⭐
-> 🧠 *Claude Code Equivalent: Multi-Modal Reasoning with Tool Use*
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Gemini%20API-4285F4?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-00C8DF?style=for-the-badge&logo=fastapi" />
-  <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/VS%20Code%20Extension-007ACC?style=for-the-badge&logo=visualstudiocode" />
-  <img src="https://img.shields.io/badge/Multi--Platform-FF6B6B?style=for-the-badge" />
-</p>
-
-A **self-built Claude Code equivalent** powered by Google's Gemini API. Multi-model pipeline with separate **Planner**, **Critic**, and **Reviewer** models. 48+ built-in tools (file I/O, shell, Git, browser, AST analysis). Available on **Web UI, VS Code extension, Telegram, and CLI**.
-
-**What It Does:**
-- 🧠 Multi-model reasoning (Planner → Critic → Reviewer)
-- 🛠️ 48 built-in tools (parallel execution)
-- 🔄 Snapshot/rollback for destructive operations
-- 💡 Confidence gate (blocks risky actions)
-- 🌐 WebSocket real-time updates
-- 📦 VS Code extension + Telegram bot integration
-- 🔌 MCP (Model Context Protocol) support
-
-**Why It's Impressive:**
-- ✅ Shows **deep LLM system design** (multi-model orchestration, tool use)
-- ✅ **Multi-platform deployment** (web, extension, chat, CLI)
-- ✅ Advanced patterns (snapshot/rollback, confidence gates)
-
-🧰 **Tech Stack:** Gemini API, FastAPI, WebSocket, VS Code Extension API, Telegram SDK  
-📊 **Outcome:** **LLM engineering maturity** — not just using APIs, but orchestrating them
-
----
-
-## ✨ Live Projects
-
-| 🎯 Project | Status | Focus | Demo |
-|-----------|--------|-------|------|
-| **DocMind** | ✅ **LIVE** | Production RAG | [Try it](https://docmind-frontend-two.vercel.app/) |
-| **SentinelLM** | ✅ **LIVE** | ML Classifier | [Try it](https://huggingface.co/spaces/jatmanis1/sentinellm-space) |
-| **API Rate Limiter** | ✅ **LIVE** | Distributed Systems | [Dashboard](https://rate-limiter-dashboard-66084283783.asia-south1.run.app) |
-| **AI Coding Agent** | ⚡ ACTIVE | LLM Orchestration | Multi-platform |
-
-**✅ 3 Flagship Systems Deployed + Live**  
-**📊 100% Production-Grade**  
-**💰 Mostly Free Tier**
-
----
-
-
-
-# 💻 Tech Stack — Backend + AI Engineer
-
-**Core Languages**  
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Bash](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-**Backend & API Frameworks**  
-![FastAPI](https://img.shields.io/badge/FastAPI-00C8DF?style=for-the-badge&logo=fastapi)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-
-**Databases & Data Storage**  
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![TimescaleDB](https://img.shields.io/badge/TimescaleDB-0F7B99?style=for-the-badge)
-![Pinecone](https://img.shields.io/badge/Pinecone-2E3838?style=for-the-badge)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-
-**LLM & AI Frameworks**  
-![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge&logo=chainlink&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FF9B00?style=for-the-badge&logo=huggingface&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-6C7F7C?style=for-the-badge)
-
-**ML Engineering & Data Science**  
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-
-**Async & Task Queues**  
-![Celery](https://img.shields.io/badge/Celery-37B24D?style=for-the-badge)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6B00?style=for-the-badge&logo=rabbitmq&logoColor=white)
-
-**Frontend & Dashboards**  
-![Next.js](https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-
-**DevOps & Deployment**  
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-
----
-
-# 📊 GitHub Stats
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=jatmxai&show_icons=true&locale=en&layout=compact" alt="jatmxai" />
-</p>
-
-<p>
-  &nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jatmxai&show_icons=true&locale=en" alt="jatmxai" />
-</p>
-
-<p>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jatmxai&" alt="jatmxai" />
-</p>
-
----
-
-### 🏆 GitHub Trophies
-[![trophy](https://github-profile-trophy.vercel.app/?username=jatmxai&theme=flat&row=1&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
-
----
-
-
-
-## 🌐 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jatmanis11)
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/jatmxai)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:hr.vedqo@gmail.com)
-[![Twitter/X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/jatmanis1)
-[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@jatmanis1)
-
----
-
-## 🎯 What's Next?
-
-I'm actively building the **4-project Backend + AI Engineer portfolio** (16 weeks). Starting with **API Rate Limiter** to build foundation, then **SentinelLM**, **DriftDetect**, and finally **DocMind** as the flagship system.
-
-Looking for opportunities to work on **production LLM systems, RAG infrastructure, or full-stack AI applications**.
-
----
-
-[![](https://visitcount.itsvg.in/api?id=jatmxai&icon=0&color=0)](https://visitcount.itsvg.in)
+**AI / ML:** LangChain · OpenAI · Anthropic · Gemini · PyTorch · Transformers · ONNX · scikit-learn · Pinecone · pgvector
+**Backend:** Python · FastAPI · Postgres · Redis · Celery · WebSockets
+**Frontend:** Next.js · React · Vue
+**Infra:** Docker · Google Cloud Run · Vercel · GitHub Actions · Hugging Face Spaces
